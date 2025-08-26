@@ -96,7 +96,7 @@ uninstall:
 	rm -f $(INSTALL_DIR)/$(PROGRAM_NAME).out
 
 dist:
-	tar -czf $(PROGRAM_NAME).tar.gz $(HEADERS) $(SOURCES_TETRIS_LIBRARY) $(SOURCES_FRONTEND) main.c Makefile
+	tar -czf $(PROGRAM_NAME).tar.gz $(HEADERS) $(SOURCES_TETRIS_LIBRARY) $(SOURCES_SNAKE_LIBRARY) $(SOURCES_BRICK_GAME) $(SOURCES_CONTROLLER) $(SOURCES_FRONTEND) main.cpp Makefile
 
 dvi:
 	@mkdir -p $(DOCS_DIR)
