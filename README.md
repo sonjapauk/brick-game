@@ -18,8 +18,8 @@
 ```bash
 # CLI-версия
 make UI=-DUSE_CLI
-./snake_cli
+./brick_game.out
 
 # GUI-версия
 make
-./snake_gui
+./brick_game.out
